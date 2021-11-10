@@ -28,10 +28,7 @@
         busStop = locations.map((e) => {
             return [e.attributes.longitude, e.attributes.latitude]
         })
-        // console.log(new Date());
-        // console.log(locations);
-        // console.log(locations[1]);
-        // console.log(locations[1].attributes);
+
         console.log(locations[1].attributes.latitude);
         console.log(locations[1].attributes.longitude);
 
@@ -64,10 +61,6 @@
 
             })
 
-
-            //  if(counter >= busStop.length) return;
-            //  marker.setLngLat(busStop[counter]);
-            //  counter++;
             move();
 
         }, 10000);
